@@ -22,6 +22,7 @@ body {
 
 #title {
     background-color: #FF5400;
+    color: #FFF;
 }
 
 /*nav related style*/
@@ -64,7 +65,7 @@ nav li a {
 
 /*header part*/
 .banner {
-    
+
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
@@ -94,7 +95,28 @@ nav li a {
     line-height: 26px;
 }
 
-.about{
+/*Main Section*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
     display: flex;
     justify-content: space-around;
 }
+
+.section-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-title-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* next section*/
